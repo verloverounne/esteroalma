@@ -1,0 +1,9 @@
+.prose {
+  max-width: 65ch;
+}
+
+.prose p {
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
