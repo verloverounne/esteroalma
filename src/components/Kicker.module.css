@@ -1,0 +1,19 @@
+.kicker {
+  font-size: 0.6rem;
+  font-weight: 400;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.kicker::before {
+  content: '';
+  width: 1.6rem;
+  height: 1px;
+  background: var(--p);
+  flex-shrink: 0;
+}
